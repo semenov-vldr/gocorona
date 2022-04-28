@@ -1,0 +1,37 @@
+.block-text__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    color: #000;
+
+    &:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    & span {
+        color: #EC5863;
+    }
+
+    &--blue span {
+        color: #4285F4;
+    }
+}
+
+.block-text__text {
+    line-height: 138.5%;
+
+    &:not(:last-child) {
+        margin-bottom: 24px;
+    }
+
+    &--healtcare {
+        max-width: 620px;
+    margin: 0 auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .block-text__title {
+        font-size: 34px;
+    }
+}
